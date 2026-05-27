@@ -9,14 +9,20 @@ description: 通过分析暂存区更改，生成 Conventional Commits 风格的
 
 ### 第一步：获取暂存区变更
 
-运行命令获取暂存区变更
+先获取暂存区文件列表：
 
 ```bash
-git diff --staged
+git diff --staged --name-status
 ```
 
 - 如果暂存区为空，输出「暂存区无变更，提交终止」并停止
 - **不要执行任何修改暂存区的命令，如 `git add`**
+
+再逐文件查看具体改动：
+
+```bash
+git diff --staged -- <file>
+```
 
 ### 第二步：构建提交信息
 
