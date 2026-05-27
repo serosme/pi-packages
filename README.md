@@ -14,4 +14,5 @@ pi install git:github.com/serosme/pi-packages
 
 ## 扩展
 
+- **clear-screen** — 扩展加载时清空终端屏幕、滚动缓冲区并将光标重置到左上角
 - **llm-write-guard** — 写操作守卫，拦截项目目录之外的文件写入
