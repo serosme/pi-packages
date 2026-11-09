@@ -1,0 +1,21 @@
+{
+  "name": "pi-packages",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "10.0.0",
+    "@tsconfig/node24": "24.0.5",
+    "@types/node": "24.19.2",
+    "eslint": "10.14.0",
+    "typescript": "6.0.3"
+  }
+}
