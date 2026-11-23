@@ -11,6 +11,9 @@ importers:
       '@earendil-works/pi-coding-agent':
         specifier: '*'
         version: 1.5.0(@aws-sdk/credential-provider-node@3.972.94)(@smithy/signature-v4@5.7.5)(ws@8.22.1)
+      '@earendil-works/pi-tui':
+        specifier: '*'
+        version: 1.5.0
       typebox:
         specifier: '*'
         version: 1.4.5
